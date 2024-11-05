@@ -1,0 +1,18 @@
+{% extends "admin/change_form.html" %}
+{% load i18n admin_static admin_modify %}
+
+{% block form_top %}
+  {% if not is_popup %}
+    <p>{% trans "First, enter an email address. Then, you'll be able to Invite User." %}</p>
+  {% else %}
+    <p>{% trans "Enter an email address." %}</p>
+  {% endif %}
+{% endblock %}
+
+{% block submit_buttons_bottom %}
+    <div class="submit-row">
+        <input type="submit" value="{% trans 'Invite' %}" class="default" name="_save">
+        <!--<input type="submit" value="{% trans 'Save and add another' %}" class="default" name="_addanother">
+        <input type="submit" value="{% trans 'Save and continue editing' %}" class="default" name="_continue">-->
+    </div>
+{% endblock %}

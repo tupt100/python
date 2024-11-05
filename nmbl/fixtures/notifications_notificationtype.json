@@ -1,0 +1,266 @@
+[
+  {
+    "model": "notifications.notificationtype",
+    "pk": 1,
+    "fields": {
+      "created_at": "2019-04-04T12:01:59.431Z",
+      "modified_at": "2019-04-04T12:10:27.365Z",
+      "name": "Task Assigned To User",
+      "slug": "task_assigned_to_user",
+      "notification_category": "task"
+    }
+  },
+  {
+    "model": "notifications.notificationtype",
+    "pk": 2,
+    "fields": {
+      "created_at": "2019-04-04T12:07:09.446Z",
+      "modified_at": "2019-04-04T12:07:09.446Z",
+      "name": "Task Re Assigned To User",
+      "slug": "task_re_assigned_to_user",
+      "notification_category": "task"
+    }
+  },
+  {
+    "model": "notifications.notificationtype",
+    "pk": 3,
+    "fields": {
+      "created_at": "2019-04-04T12:07:45.731Z",
+      "modified_at": "2019-04-04T12:07:52.898Z",
+      "name": "Task is Past Due",
+      "slug": "task_is_past_due",
+      "notification_category": "task"
+    }
+  },
+  {
+    "model": "notifications.notificationtype",
+    "pk": 4,
+    "fields": {
+      "created_at": "2019-04-04T12:08:04.417Z",
+      "modified_at": "2019-04-04T12:08:04.417Z",
+      "name": "Task is Completed",
+      "slug": "task_is_completed",
+      "notification_category": "task"
+    }
+  },
+  {
+    "model": "notifications.notificationtype",
+    "pk": 5,
+    "fields": {
+      "created_at": "2019-04-04T12:08:13.596Z",
+      "modified_at": "2019-04-04T12:08:13.596Z",
+      "name": "Document Uploaded to Task",
+      "slug": "document_uploaded_to_task",
+      "notification_category": "task"
+    }
+  },
+  {
+    "model": "notifications.notificationtype",
+    "pk": 6,
+    "fields": {
+      "created_at": "2019-04-04T12:08:30.269Z",
+      "modified_at": "2019-04-04T12:08:30.270Z",
+      "name": "Added to new Project",
+      "slug": "added_to_new_project",
+      "notification_category": "project"
+    }
+  },
+  {
+    "model": "notifications.notificationtype",
+    "pk": 7,
+    "fields": {
+      "created_at": "2019-04-04T12:08:38.282Z",
+      "modified_at": "2019-04-04T12:08:38.282Z",
+      "name": "Removed from Project",
+      "slug": "removed_from_project",
+      "notification_category": "project"
+    }
+  },
+  {
+    "model": "notifications.notificationtype",
+    "pk": 8,
+    "fields": {
+      "created_at": "2019-04-04T12:08:48.804Z",
+      "modified_at": "2019-04-04T12:08:48.804Z",
+      "name": "Project is Past Due",
+      "slug": "project_is_past_due",
+      "notification_category": "project"
+    }
+  },
+  {
+    "model": "notifications.notificationtype",
+    "pk": 9,
+    "fields": {
+      "created_at": "2019-04-04T12:09:12.795Z",
+      "modified_at": "2019-04-04T12:09:12.795Z",
+      "name": "Project is Completed",
+      "slug": "project_is_completed",
+      "notification_category": "project"
+    }
+  },
+  {
+    "model": "notifications.notificationtype",
+    "pk": 10,
+    "fields": {
+      "created_at": "2019-04-04T12:09:26.833Z",
+      "modified_at": "2019-04-04T12:09:26.833Z",
+      "name": "New Tasks Created",
+      "slug": "new_tasks_created",
+      "notification_category": "task"
+    }
+  },
+  {
+    "model": "notifications.notificationtype",
+    "pk": 11,
+    "fields": {
+      "created_at": "2019-04-04T12:08:30.269Z",
+      "modified_at": "2019-04-04T12:08:30.270Z",
+      "name": "Added to new Workflow",
+      "slug": "added_to_new_workflow",
+      "notification_category": "workflow"
+    }
+  },
+  {
+    "model": "notifications.notificationtype",
+    "pk": 12,
+    "fields": {
+      "created_at": "2019-04-04T12:08:38.282Z",
+      "modified_at": "2019-04-04T12:08:38.282Z",
+      "name": "Removed from Workflow",
+      "slug": "removed_from_workflow",
+      "notification_category": "workflow"
+    }
+  },
+  {
+    "model": "notifications.notificationtype",
+    "pk": 13,
+    "fields": {
+      "created_at": "2019-04-04T12:09:12.795Z",
+      "modified_at": "2019-04-04T12:09:12.795Z",
+      "name": "Workflow is Completed",
+      "slug": "workflow_is_completed",
+      "notification_category": "workflow"
+    }
+  },
+  {
+    "model": "notifications.notificationtype",
+    "pk": 14,
+    "fields": {
+      "created_at": "2019-04-04T12:09:12.795Z",
+      "modified_at": "2019-04-04T12:09:12.795Z",
+      "name": "Task Ping",
+      "slug": "task_ping",
+      "notification_category": "task"
+    }
+  },
+  {
+    "model": "notifications.notificationtype",
+    "pk": 15,
+    "fields": {
+      "created_at": "2019-04-04T12:09:12.795Z",
+      "modified_at": "2019-04-04T12:09:12.795Z",
+      "name": "Project Due Date",
+      "slug": "project_due_date",
+      "notification_category": "project"
+    }
+  },
+  {
+    "model": "notifications.notificationtype",
+    "pk": 16,
+    "fields": {
+      "created_at": "2019-04-04T12:09:12.795Z",
+      "modified_at": "2019-04-04T12:09:12.795Z",
+      "name": "Workflow Due Date",
+      "slug": "workflow_due_date",
+      "notification_category": "workflow"
+    }
+  },
+  {
+    "model": "notifications.notificationtype",
+    "pk": 17,
+    "fields": {
+      "created_at": "2019-04-04T12:09:12.795Z",
+      "modified_at": "2019-04-04T12:09:12.795Z",
+      "name": "Task Due Date",
+      "slug": "task_due_date",
+      "notification_category": "task"
+    }
+  },
+  {
+    "model": "notifications.notificationtype",
+    "pk": 18,
+    "fields": {
+      "created_at": "2019-04-04T12:09:12.795Z",
+      "modified_at": "2019-04-04T12:09:12.795Z",
+      "name": "Role Update",
+      "slug": "role_update",
+      "notification_category": "account"
+    }
+  },
+  {
+    "model": "notifications.notificationtype",
+    "pk": 19,
+    "fields": {
+      "created_at": "2019-04-04T12:09:12.795Z",
+      "modified_at": "2019-04-04T12:09:12.795Z",
+      "name": "Document Uploaded to Project",
+      "slug": "document_uploaded_to_project",
+      "notification_category": "project"
+    }
+  },
+  {
+    "model": "notifications.notificationtype",
+    "pk": 20,
+    "fields": {
+      "created_at": "2019-04-04T12:09:12.795Z",
+      "modified_at": "2019-04-04T12:09:12.795Z",
+      "name": "Document Uploaded to Workflow",
+      "slug": "document_uploaded_to_workflow",
+      "notification_category": "workflow"
+    }
+  },
+    {
+    "model": "notifications.notificationtype",
+    "pk": 21,
+    "fields": {
+      "created_at": "2019-04-04T12:09:12.795Z",
+      "modified_at": "2019-04-04T12:09:12.795Z",
+      "name": "Added to a group",
+      "slug": "workgroup_assigned_to_user",
+      "notification_category": "account"
+    }
+  },
+    {
+    "model": "notifications.notificationtype",
+    "pk": 22,
+    "fields": {
+      "created_at": "2019-04-04T12:09:12.795Z",
+      "modified_at": "2019-04-04T12:09:12.795Z",
+      "name": "Project New Message",
+      "slug": "project_new_message",
+      "notification_category": "project"
+    }
+  },
+    {
+    "model": "notifications.notificationtype",
+    "pk": 23,
+    "fields": {
+      "created_at": "2019-04-04T12:09:12.795Z",
+      "modified_at": "2019-04-04T12:09:12.795Z",
+      "name": "Workflow New Message",
+      "slug": "workflow_new_message",
+      "notification_category": "workflow"
+    }
+  },
+    {
+    "model": "notifications.notificationtype",
+    "pk": 24,
+    "fields": {
+      "created_at": "2019-04-04T12:09:12.795Z",
+      "modified_at": "2019-04-04T12:09:12.795Z",
+      "name": "Task New Message",
+      "slug": "task_new_message",
+      "notification_category": "task"
+    }
+  }
+]

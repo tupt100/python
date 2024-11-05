@@ -1,0 +1,206 @@
+[
+  {
+    "model": "authentication.introslide",
+    "pk": 1,
+    "fields": {
+    "title": "Documents",
+    "message": "Create, store and share files that are associated to tasks within your projects. You can download files locally and upload new versions.",
+    "module": "document",
+    "rank": 1,
+    "created_at": "2020-04-02T10:39:29.978Z",
+    "modified_at": "2020-04-02T10:39:29.978Z"
+  }
+  },
+  {
+    "model": "authentication.introslide",
+    "pk": 2,
+    "fields": {
+    "title": "Uploading Documents",
+    "message": "Uploading documents is as simple as drag and drop your files onto Proxy. Once uploaded you can associate it with a Project, Workflow or Task your assigned to.",
+    "module": "document",
+    "rank": 2,
+    "created_at": "2020-04-02T10:39:29.978Z",
+    "modified_at": "2020-04-02T10:39:29.978Z"
+  }
+  },
+  {
+    "model": "authentication.introslide",
+    "pk": 3,
+    "fields": {
+    "title": "Get Piece of Mind",
+    "message": "Files you upload can only be accessed to members that are associated to the  Project, Workflow or Task you assign the file to.",
+    "module": "document",
+    "rank": 3,
+    "created_at": "2020-04-02T10:39:29.978Z",
+    "modified_at": "2020-04-02T10:39:29.978Z"
+  }
+  },
+  {
+    "model": "authentication.introslide",
+    "pk": 4,
+    "fields": {
+    "title": "Groups",
+    "message": "Bring the right people and information together with groups. As an admin you can create and edit groups, group names are displayed on all projects, workflows and tasks to show who is responsible.",
+    "module": "group",
+    "rank": 1,
+    "created_at": "2020-04-02T10:39:29.978Z",
+    "modified_at": "2020-04-02T10:39:29.978Z"
+  }
+  },
+  {
+    "model": "authentication.introslide",
+    "pk": 5,
+    "fields": {
+    "title": "Adding Groups",
+    "message": "Groups can be created and managed by admins only. Simply define a recognizable name and add the members you’d like to include in the group. Members are then automatically invited to that group.",
+    "module": "group",
+    "rank": 2,
+    "created_at": "2020-04-02T10:39:29.978Z",
+    "modified_at": "2020-04-02T10:39:29.978Z"
+  }
+  },
+  {
+    "model": "authentication.introslide",
+    "pk": 6,
+    "fields": {
+    "title": "Managing Groups",
+    "message": "Members can be added to multiple groups at the same time.\nYou can manage what members on in each group at anytime. If a group is no longer needed, simply delete and re assign the members to a new group",
+    "module": "group",
+    "rank": 3,
+    "created_at": "2020-04-02T10:39:29.978Z",
+    "modified_at": "2020-04-02T10:39:29.978Z"
+  }
+  },
+  {
+    "model": "authentication.introslide",
+    "pk": 7,
+    "fields": {
+    "title": "Projects",
+    "message": "A Project is generally a formal legal or business project known within the company. Projects generally include multiple Workflows, which in turn contain many Tasks. For example, a Project could relate to litigation in which the company is engaged (e.g. Doe v. Company), with multiple Workflows related to the stages of litigation - for example Answer & Affirmative Defenses, Written Discovery, Depositions, Motions, and Trial. \n\nA Project could also relate to a key customer to negotiate and track multiple POs or SOWs, or it could relate to a large transaction, e.g. Letter of Intent, Diligence, Master Purchase Agreement, or the like.",
+    "module": "project",
+    "rank": 1,
+    "created_at": "2020-04-02T10:39:29.978Z",
+    "modified_at": "2020-04-02T10:39:29.978Z"
+  }
+  },
+  {
+    "model": "authentication.introslide",
+    "pk": 8,
+    "fields": {
+      "title": "Tasks",
+      "message": "A Task in Proxy is any discrete piece of legal work to be done. It could be reviewing a document, drafting a policy, answering an executive's question, or filing a brief. Tasks may be ad hoc and stand on their own, or they may be part of a larger Workflow.",
+      "module": "task",
+      "rank": 1,
+      "created_at": "2020-04-02T10:39:29.978Z",
+      "modified_at": "2020-04-02T10:39:29.978Z"
+    }
+  },
+  {
+    "model": "authentication.introslide",
+    "pk": 9,
+    "fields": {
+      "title": "Introducing Discussions",
+      "message": "Notes is now discussions. A new way to collaborate over workflows, projects and tasks. Whether it’s everyone in the group or an individual.",
+      "module": "task",
+      "rank": 2,
+      "created_at": "2020-04-02T10:39:29.978Z",
+      "modified_at": "2020-04-02T10:39:29.978Z"
+    }
+  },
+  {
+    "model": "authentication.introslide",
+    "pk": 10,
+    "fields": {
+      "title": "Multiple members or just one.",
+      "message": "You’re always in control when it comes to what you want to share. you can choose to send it to the entire group or just one contact.",
+      "module": "task",
+      "rank": 3,
+      "created_at": "2020-04-02T10:39:29.978Z",
+      "modified_at": "2020-04-02T10:39:29.978Z"
+    }
+  },
+  {
+    "model": "authentication.introslide",
+    "pk": 11,
+    "fields": {
+      "title": "Send Documents",
+      "message": "Securely send documents without the need to leave the screen,\nDocuments can be sent to everyone in the team or a specific member.",
+      "module": "task",
+      "rank": 4,
+      "created_at": "2020-04-02T10:39:29.978Z",
+      "modified_at": "2020-04-02T10:39:29.978Z"
+    }
+  },
+  {
+    "model": "authentication.introslide",
+    "pk": 12,
+    "fields": {
+      "title": "Welcome to Proxy",
+      "message": "You’re all set! Your dashboard gives you an overview of the projects, workflows and tasks your assigned too.",
+      "module": "welcome",
+      "rank": 1,
+      "created_at": "2020-04-02T10:39:29.978Z",
+      "modified_at": "2020-04-02T10:39:29.978Z"
+    }
+  },
+  {
+    "model": "authentication.introslide",
+    "pk": 13,
+    "fields": {
+      "title": "Adding Team Members",
+      "message": "Welcome to Company Management. As your role as an Admin, here you can add the rest of your team and define permissions and groups.",
+      "module": "welcome",
+      "rank": 2,
+      "created_at": "2020-04-02T10:39:29.978Z",
+      "modified_at": "2020-04-02T10:39:29.978Z"
+    }
+  },
+  {
+    "model": "authentication.introslide",
+    "pk": 14,
+    "fields": {
+      "title": "Manually Add Members",
+      "message": "You can add members at anytime. Simply invite users by email and define the permissions you would like to give.",
+      "module": "welcome",
+      "rank": 3,
+      "created_at": "2020-04-02T10:39:29.978Z",
+      "modified_at": "2020-04-02T10:39:29.978Z"
+    }
+  },
+  {
+    "model": "authentication.introslide",
+    "pk": 15,
+    "fields": {
+    "title": "Mass Invite",
+    "message": "Have a large amount of user to add? Simply copy and paste all the emails and Proxy will create multiple accounts at the same time.",
+    "module": "welcome",
+    "rank": 4,
+    "created_at": "2020-04-02T10:39:29.978Z",
+    "modified_at": "2020-04-02T10:39:29.978Z"
+  }
+  },
+  {
+    "model": "authentication.introslide",
+    "pk": 16,
+    "fields": {
+    "title": "Tags",
+    "message": "Find your projects, workflows and tasks easier with tags. You can define multiple tags and use the filters around Proxy to get to your project, workflow and task fast.",
+    "module": "welcome",
+    "rank": 5,
+    "created_at": "2020-04-02T10:39:29.978Z",
+    "modified_at": "2020-04-02T10:39:29.978Z"
+  }
+  },
+  {
+    "model": "authentication.introslide",
+    "pk": 17,
+    "fields": {
+    "title": "Workflows",
+    "message": "A Workflow is a collection of Tasks or any legal matter that requires multiple steps or people. For example, the drafting, revision, and approval of a contract or legal brief may require multiple people and multiple iterations of the relevant document. \n\nEach discrete step in the process may be a Task, but the entire process (that is, all of the Tasks together) is a Workflow. Where as a Task normally has one owner and one person assigned to the Task, a Workflow may have many people \nassigned or included.",
+    "module": "workflow",
+    "rank": 1,
+    "created_at": "2020-04-02T10:39:29.978Z",
+    "modified_at": "2020-04-02T10:39:29.978Z"
+  }
+  }
+]

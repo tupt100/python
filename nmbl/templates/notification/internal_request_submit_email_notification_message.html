@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>    
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="format-detection" content="telephone=no"> 
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+        <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />     
+      <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,500i,700,700i" rel="stylesheet" type="text/css">
+      <style type="text/css">
+         body {
+         -webkit-text-size-adjust: 100% !important;
+         -ms-text-size-adjust: 100% !important;
+         -webkit-font-smoothing: antialiased !important;
+         font-family: sans-serif;
+         font-family:'arial';
+         font-family: Arial, Helvetica, sans-serif;
+         }
+         img {
+         border: 0 !important;
+         outline: none !important;
+         }
+         p {
+         Margin: 0px !important;
+         padding: 0px !important;
+         -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+         table {
+         border-collapse: collapse;
+         mso-table-lspace: 0px;
+         mso-table-rspace: 0px;
+         -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+         td {
+         border-collapse: collapse;
+         mso-line-height-rule: exactly;
+         -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+         a, span {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            mso-line-height-rule: exactly;
+         }
+
+         .btn{color:#ffffff;}
+         .btn{color:#ffffff;}
+         .table-footer { width: 95%; padding: 0 15px; max-width: 100%; }
+        
+        @media only screen and (max-width:767px) {
+            table, .table-footer, .table-footer .fblock {width: 100% !important;    box-sizing: border-box;}
+            .fblock {text-align: left!important;padding: 0px 0 30px 0 !important;}            
+        }
+      </style>
+   </head>
+<body style="margin:0px; padding:0px; font-family: 'Ubuntu';" bgcolor="#ffffff">
+<table width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+        <td align="center">
+            <table style="table-layout:fixed;" width="450" border="0" cellspacing="0" cellpadding="0"
+                   align="center" class="em_wrapper">
+                <tr>
+                    <td class="em_hide" height="1" style="line-height:0px; font-size:0px;">
+                        <img src="https://proxy-common.s3.us-east-2.amazonaws.com/assets/logo/email-spacer.png"
+                             height="1" width="450"
+                             style="display:block; width:450px; min-width:450px;max-height:1px;" border="0"
+                             alt="spacer"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top" style="padding: 0 10px;">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                            <tr>
+                                <td height="35">&nbsp;</td>
+                            </tr>
+                           
+                            <tr>
+                                <td align="center"><a href="javascript:void(0);">
+                                    <img src="https://proxy-common.s3.us-east-2.amazonaws.com/assets/logo/proxy-logo.png"
+                                         alt=" " width="107" height="31"></a></td>
+                            </tr>
+                            <tr>
+                                <td height="2">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td align="left"
+                                    style="color:rgba(21,29,67,0.6);font-size: 13px; padding: 0; text-align: left; line-height: 18px;">
+                                     <strong>{{ user }}</strong>, from <strong>{{ company }}</strong> has submitted a new request for you. Review the details below or <a style="text-decoration: underline;color: #4053b3; font-weight: 700;" href="{{ service_desk_url }}">
+                                        click here</a> to view the request, upload documents and send messages to the <strong>{{ company }}</strong> team.
+                                </td>
+                            <tr>
+                                <td align="left"
+                                    style="color: rgba(21,29,67,0.6);font-size: 13px; padding: 0; text-align: left; line-height: 18px;">
+                                    <span style="font-weight: 400;">Request -&nbsp;&nbsp;</span><strong>{{ request_name }}</strong><br>
+                                    <span style="font-weight: 400;">Priority -&nbsp;&nbsp;</span><strong>{{ priority }}</strong><br>
+                                    <span style="font-weight: 400;">Assigned to -&nbsp;&nbsp;</span><strong>{{ assign_to }}</strong><br>
+                                    <span style="font-weight: 400;">Due Date -&nbsp;&nbsp;</span><strong>{{ due_date }}</strong><br>
+                                    <span style="font-weight: 400;">Details/Description:&nbsp;&nbsp;</span> <br><strong>{{ notes }}</strong><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="15">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td align="left">
+                                    <p style="color: #002234;font-size: 13px; text-align: left; line-height: 35px;margin: 0; padding: 0;font-weight:400;">
+                                        Sincerely,</p>
+                                    <p style="color: #002234;font-size: 13px; text-align: left; line-height: 18px;margin: 0; padding: 0;font-weight:700;">
+                                        The NMBL Technologies Team</p>
+                                    <a style="font-size: 13px; padding: 0;text-align: left; line-height: 18px; text-decoration: underline; color: #485cc7;margin: 0; padding: 0;font-weight: 600;"
+                                        href="mailto:Feedback@proxylegalapp.com">send us your feedback</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="30">&nbsp;</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" bgcolor="#ffffff">
+              <div style="width:830px;background-color: #ffffff;" class="em_wrapper table-footer">                        
+                  <div style="border-top: 1px solid #eeeef9; border-bottom: 1px solid #eeeef9;display: inline-block; width: 100%; padding: 10px 0;">                                                      
+                      <div class="fblock" style="display: inline-block;vertical-align: middle;width: 48%;color: #4c4c4c;font-size: 13px; padding: 0;text-align: left; font-family: Arial, Helvetica, sans-serif; ">
+                          <span style="color: #151d43;font-family: Arial, Helvetica, sans-serif;font-weight: 500;line-height: 35px;font-size: 12px;">Need help?</span><br/>
+                          <span style="line-height: 18px;color: rgba(21,29,67,0.6);font-weight: 400;">Please send any bug reports, feedback or queries to</span><br/>
+                          <a href="" style="line-height: 18px;color: #485cc7;font-weight: 500;"> support@proxy.com</a>
+                      </div>
+                      <div class="fblock" style="display: inline-block;vertical-align: middle;width: 48%;color: #4c4c4c;font-size: 13px; padding: 0;text-align: right; line-height: 20px; font-family: Arial, Helvetica, sans-serif; ">                                
+                          <div>
+                              <a style="margin: 0 5px;" href=""><img src="https://proxy-common.s3.us-east-2.amazonaws.com/assets/logo/facebook.png" height="18" width="11"/></a>
+                              <a style="margin: 0 5px;" href=""><img src="https://proxy-common.s3.us-east-2.amazonaws.com/assets/logo/instagram.png" height="18" width="18"/></a>
+                              <a style="margin: 0 5px;" href=""><img src="https://proxy-common.s3.us-east-2.amazonaws.com/assets/logo/twitter.png" height="18" width="18"/></a>
+                          </div>                            
+                          <div> <span style="font-size: 10px;font-weight:400;color: rgba(21,31,77,0.6);line-height: 15px;">© NMBL Tech Inc / 301 W. Grand Ave. <br/> 165 Chicago, IL 60654</span></div>                                                                    
+                      </div>                                                                           
+                  </div>                        
+              </div>
+        </td>
+    </tr>
+    <!-- Emailer Ends Here //-->
+</table>
+​
+<div style="display:none; white-space:nowrap; font:20px courier; color:#ffffff;">&nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+</div>
+</body>
+</html>

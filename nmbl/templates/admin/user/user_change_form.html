@@ -1,0 +1,41 @@
+{% extends "admin/change_form.html" %}
+{% load i18n admin_static admin_modify %}
+{% block object-tools %}
+{{ block.super }}
+
+    <div class="submit-row">
+        <div action="/send-password-reset/8/" method="POST">
+            {% csrf_token %}
+                <input type="submit" name="send_reset" id="passwordResetBtn" value="Send Password Reset Link">
+        </div>
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+    $(document).on("click", "#passwordResetBtn", function() {
+        var email = $("#id_username").val();
+        var url = '/api/send-password-reset/'+email+'/';
+        $.ajax({
+            url: url,
+            type : "POST",
+            data: {
+                'csrfmiddlewaretoken' : "{{csrf_token}}",
+            },
+            success: function(res) {
+                console.log(res);
+
+                if(res.status == 200){
+                    alert("Password reset mail Sent Successfully!");
+                }
+                else{
+                    alert("Error while sending mail!");
+                    alert(res.detail);
+
+                }
+            }
+        });
+    });
+</script>
+
+{% endblock %}

@@ -1,0 +1,818 @@
+[
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 1,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 1,
+      "group": 1
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 2,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 2,
+      "group": 1
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 3,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 3,
+      "group": 1
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 4,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 4,
+      "group": 1
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 5,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 5,
+      "group": 1
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 6,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 6,
+      "group": 1
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 7,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 7,
+      "group": 1
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 8,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 8,
+      "group": 1
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 9,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 9,
+      "group": 1
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 10,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 10,
+      "group": 1
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 11,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 11,
+      "group": 1
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 12,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 1,
+      "group": 2
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 13,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 2,
+      "group": 2
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 14,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 3,
+      "group": 2
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 15,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 4,
+      "group": 2
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 16,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 5,
+      "group": 2
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 17,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 6,
+      "group": 2
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 18,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 7,
+      "group": 2
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 19,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 8,
+      "group": 2
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 20,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 9,
+      "group": 2
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 21,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 10,
+      "group": 2
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 22,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 11,
+      "group": 2
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 23,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 1,
+      "group": 3
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 24,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 2,
+      "group": 3
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 25,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 3,
+      "group": 3
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 26,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 4,
+      "group": 3
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 27,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 5,
+      "group": 3
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 28,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 6,
+      "group": 3
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 29,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 7,
+      "group": 3
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 30,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 8,
+      "group": 3
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 31,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 9,
+      "group": 3
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 32,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 10,
+      "group": 3
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 33,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 11,
+      "group": 3
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 34,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 1,
+      "group": 4
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 35,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 2,
+      "group": 4
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 36,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 3,
+      "group": 4
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 37,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 4,
+      "group": 4
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 38,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 5,
+      "group": 4
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 39,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 6,
+      "group": 4
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 40,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 7,
+      "group": 4
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 41,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 8,
+      "group": 4
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 42,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 9,
+      "group": 4
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 43,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 10,
+      "group": 4
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 44,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 11,
+      "group": 4
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 45,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 12,
+      "group": 1
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 46,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 12,
+      "group": 2
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 47,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 12,
+      "group": 3
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 48,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 12,
+      "group": 4
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 49,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 13,
+      "group": 1
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 50,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 13,
+      "group": 2
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 51,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 13,
+      "group": 3
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 52,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 13,
+      "group": 4
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 53,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 14,
+      "group": 1
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 54,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 14,
+      "group": 2
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 55,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 14,
+      "group": 3
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 56,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 14,
+      "group": 4
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 57,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 15,
+      "group": 1
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 58,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 15,
+      "group": 2
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 59,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 15,
+      "group": 3
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 60,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 15,
+      "group": 4
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 61,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 16,
+      "group": 1
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 62,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 16,
+      "group": 2
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 63,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 16,
+      "group": 3
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 64,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 16,
+      "group": 4
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 65,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 17,
+      "group": 1
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 66,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 17,
+      "group": 2
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 67,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 17,
+      "group": 3
+    }
+  },
+  {
+    "model": "notifications.defaultusernotificationsetting",
+    "pk": 68,
+    "fields": {
+      "created_at": "2019-04-11T13:23:51.525Z",
+      "modified_at": "2019-04-11T13:23:51.525Z",
+      "in_app_notification": true,
+      "email_notification": true,
+      "notification_type": 17,
+      "group": 4
+    }
+  }
+]

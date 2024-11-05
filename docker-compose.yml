@@ -1,0 +1,79 @@
+version: '3'
+services:
+  redis:
+    restart: always
+    image: redis:5.0.4-alpine
+    command: ["redis-server", "--appendonly", "yes"]
+    hostname: redis
+    networks:
+      - app-network
+    volumes:
+      - redis-data:/data
+
+  postgres:
+    image: postgis/postgis:10-3.0-alpine
+    networks:
+      - app-network
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: 'password'
+      POSTGRES_USER: 'nmbl'
+      POSTGRES_DB: 'nmbl'
+    volumes:
+      - postgres:/var/lib/postgresql/data
+
+  nmblapp:
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - app-network
+    command: gunicorn --log-level debug --bind 0.0.0.0:8000 nmbl.wsgi
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+    env_file:
+        - .env
+
+  nmblsocketapp:
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - app-network
+    ports:
+      - "9000:9000"
+    command: daphne nmbl.asgi:application --bind 0.0.0.0 --port 9000
+    depends_on:
+      - postgres
+    env_file:
+        - .env
+
+
+  nmblcelery:
+      restart: always
+      build:
+        context: .
+        dockerfile: Dockerfile
+      networks:
+        - app-network
+      command: "celery worker -E -B --loglevel=DEBUG --app=nmbl.celery:app"
+      environment:
+          - C_FORCE_ROOT=true
+      depends_on:
+        - nmblapp
+      env_file:
+        - .env
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  nmbldb_volume:
+  redis-data:
+  static-data:
+  postgres:

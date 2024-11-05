@@ -1,0 +1,761 @@
+[
+{
+    "model": "authentication.permission",
+    "pk": 1,
+    "fields": {
+        "created_at": "2019-03-28T06:56:59.936Z",
+        "modified_at": "2019-03-28T06:56:59.936Z",
+        "name": "View Mine Only",
+        "permission_category": "task",
+        "slug": "task_task-view"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 2,
+    "fields": {
+        "created_at": "2019-03-28T06:57:08.180Z",
+        "modified_at": "2019-03-28T06:57:08.180Z",
+        "name": "Task Create",
+        "permission_category": "task",
+        "slug": "task_task-create"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 3,
+    "fields": {
+        "created_at": "2019-03-28T06:57:16.734Z",
+        "modified_at": "2019-03-28T06:57:16.734Z",
+        "name": "Task Update",
+        "permission_category": "task",
+        "slug": "task_task-update"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 4,
+    "fields": {
+        "created_at": "2019-03-28T06:57:23.413Z",
+        "modified_at": "2019-03-28T06:57:23.413Z",
+        "name": "Task Archive",
+        "permission_category": "task",
+        "slug": "task_task-delete"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 6,
+    "fields": {
+        "created_at": "2019-03-28T06:57:38.511Z",
+        "modified_at": "2019-03-28T06:57:38.511Z",
+        "name": "Change Importance",
+        "permission_category": "task",
+        "slug": "task_change-importance"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 7,
+    "fields": {
+        "created_at": "2019-03-28T06:57:45.970Z",
+        "modified_at": "2019-03-28T06:57:45.970Z",
+        "name": "Upload Docs",
+        "permission_category": "task",
+        "slug": "task_upload-docs"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 8,
+    "fields": {
+        "created_at": "2019-03-28T06:57:53.224Z",
+        "modified_at": "2019-03-28T06:57:53.224Z",
+        "name": "Change Due Date",
+        "permission_category": "task",
+        "slug": "task_change-due-date"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 9,
+    "fields": {
+        "created_at": "2019-03-28T06:58:00.380Z",
+        "modified_at": "2019-03-28T06:58:00.380Z",
+        "name": "Set Rank (Drag & Drop)",
+        "permission_category": "task",
+        "slug": "task_set-rank-drag-drop"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 10,
+    "fields": {
+        "created_at": "2019-03-28T06:58:08.254Z",
+        "modified_at": "2019-03-28T06:58:08.254Z",
+        "name": "Status Update",
+        "permission_category": "task",
+        "slug": "task_status-update"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 11,
+    "fields": {
+        "created_at": "2019-03-28T06:58:16.619Z",
+        "modified_at": "2019-03-28T06:58:16.619Z",
+        "name": "Mark As Completed",
+        "permission_category": "task",
+        "slug": "task_mark-as-completed"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 12,
+    "fields": {
+        "created_at": "2019-03-28T06:58:24.200Z",
+        "modified_at": "2019-03-28T06:58:24.200Z",
+        "name": "Reassign Task",
+        "permission_category": "task",
+        "slug": "task_reassign-task"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 13,
+    "fields": {
+        "created_at": "2019-03-28T06:58:30.556Z",
+        "modified_at": "2019-03-28T06:58:30.556Z",
+        "name": "View Archived",
+        "permission_category": "task",
+        "slug": "task_view-archived"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 14,
+    "fields": {
+        "created_at": "2019-03-28T06:58:36.486Z",
+        "modified_at": "2019-03-28T06:58:36.486Z",
+        "name": "Reopen Task",
+        "permission_category": "task",
+        "slug": "task_reopen-task"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 15,
+    "fields": {
+        "created_at": "2019-03-28T06:58:42.207Z",
+        "modified_at": "2019-03-28T06:58:42.207Z",
+        "name": "Associate to Workflow",
+        "permission_category": "task",
+        "slug": "task_associate-to-workflow"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 16,
+    "fields": {
+        "created_at": "2019-03-28T06:59:00.679Z",
+        "modified_at": "2019-03-28T06:59:00.679Z",
+        "name": "View Mine Only",
+        "permission_category": "workflow",
+        "slug": "workflow_workflow-view"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 17,
+    "fields": {
+        "created_at": "2019-03-28T06:59:06.616Z",
+        "modified_at": "2019-03-28T06:59:06.616Z",
+        "name": "Workflow Create",
+        "permission_category": "workflow",
+        "slug": "workflow_workflow-create"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 18,
+    "fields": {
+        "created_at": "2019-03-28T06:59:12.095Z",
+        "modified_at": "2019-03-28T06:59:12.095Z",
+        "name": "Workflow Update",
+        "permission_category": "workflow",
+        "slug": "workflow_workflow-update"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 19,
+    "fields": {
+        "created_at": "2019-03-28T06:59:17.792Z",
+        "modified_at": "2019-03-28T06:59:17.792Z",
+        "name": "Workflow Archive",
+        "permission_category": "workflow",
+        "slug": "workflow_workflow-delete"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 21,
+    "fields": {
+        "created_at": "2019-03-28T06:59:30.048Z",
+        "modified_at": "2019-03-28T06:59:30.048Z",
+        "name": "Assign Owner",
+        "permission_category": "workflow",
+        "slug": "workflow_assign-owner"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 22,
+    "fields": {
+        "created_at": "2019-03-28T06:59:36.762Z",
+        "modified_at": "2019-03-28T06:59:36.762Z",
+        "name": "Add Team Members",
+        "permission_category": "workflow",
+        "slug": "workflow_add-team-members"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 24,
+    "fields": {
+        "created_at": "2019-03-28T06:59:48.242Z",
+        "modified_at": "2019-03-28T06:59:48.242Z",
+        "name": "Change Importance",
+        "permission_category": "workflow",
+        "slug": "workflow_change-importance"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 25,
+    "fields": {
+        "created_at": "2019-03-28T06:59:54.118Z",
+        "modified_at": "2019-03-28T06:59:54.118Z",
+        "name": "Change Due Date",
+        "permission_category": "workflow",
+        "slug": "workflow_change-due-date"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 26,
+    "fields": {
+        "created_at": "2019-03-28T07:00:00.301Z",
+        "modified_at": "2019-03-28T07:00:00.301Z",
+        "name": "Set Rank (Drag & Drop)",
+        "permission_category": "workflow",
+        "slug": "workflow_set-rank-drag-drop"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 27,
+    "fields": {
+        "created_at": "2019-03-28T07:00:11.893Z",
+        "modified_at": "2019-03-28T07:00:11.893Z",
+        "name": "Mark As Completed",
+        "permission_category": "workflow",
+        "slug": "workflow_mark-as-completed"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 28,
+    "fields": {
+        "created_at": "2019-03-28T07:00:18.642Z",
+        "modified_at": "2019-03-28T07:00:18.642Z",
+        "name": "View Archived",
+        "permission_category": "workflow",
+        "slug": "workflow_view-archived"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 29,
+    "fields": {
+        "created_at": "2019-03-28T07:00:24.338Z",
+        "modified_at": "2019-03-28T07:00:24.338Z",
+        "name": "Associate to Project",
+        "permission_category": "workflow",
+        "slug": "workflow_associate-to-project"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 30,
+    "fields": {
+        "created_at": "2019-03-28T07:00:37.428Z",
+        "modified_at": "2019-03-28T07:00:37.428Z",
+        "name": "View Mine Only",
+        "permission_category": "project",
+        "slug": "project_project-view"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 31,
+    "fields": {
+        "created_at": "2019-03-28T07:00:43.544Z",
+        "modified_at": "2019-03-28T07:00:43.544Z",
+        "name": "Project Create",
+        "permission_category": "project",
+        "slug": "project_project-create"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 32,
+    "fields": {
+        "created_at": "2019-03-28T07:00:49.257Z",
+        "modified_at": "2019-03-28T07:00:49.257Z",
+        "name": "Project Update",
+        "permission_category": "project",
+        "slug": "project_project-update"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 33,
+    "fields": {
+        "created_at": "2019-03-28T07:00:55.272Z",
+        "modified_at": "2019-03-28T07:00:55.272Z",
+        "name": "Project Archive",
+        "permission_category": "project",
+        "slug": "project_project-delete"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 34,
+    "fields": {
+        "created_at": "2019-03-28T07:01:01.338Z",
+        "modified_at": "2019-03-28T07:01:01.338Z",
+        "name": "Upload Docs",
+        "permission_category": "project",
+        "slug": "project_upload-docs"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 35,
+    "fields": {
+        "created_at": "2019-03-28T07:01:07.943Z",
+        "modified_at": "2019-03-28T07:01:07.943Z",
+        "name": "Assign Owner",
+        "permission_category": "project",
+        "slug": "project_assign-owner"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 36,
+    "fields": {
+        "created_at": "2019-03-28T07:01:13.481Z",
+        "modified_at": "2019-03-28T07:01:13.481Z",
+        "name": "Add Team Members",
+        "permission_category": "project",
+        "slug": "project_add-team-members"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 38,
+    "fields": {
+        "created_at": "2019-03-28T07:01:26.370Z",
+        "modified_at": "2019-03-28T07:01:26.370Z",
+        "name": "Change Importance",
+        "permission_category": "project",
+        "slug": "project_change-importance"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 39,
+    "fields": {
+        "created_at": "2019-03-28T07:01:32.630Z",
+        "modified_at": "2019-03-28T07:01:32.630Z",
+        "name": "Change Due Date",
+        "permission_category": "project",
+        "slug": "project_change-due-date"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 40,
+    "fields": {
+        "created_at": "2019-03-28T07:01:38.888Z",
+        "modified_at": "2019-03-28T07:01:38.888Z",
+        "name": "Set Rank (Drag & Drop)",
+        "permission_category": "project",
+        "slug": "project_set-rank-drag-drop"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 41,
+    "fields": {
+        "created_at": "2019-03-28T07:01:45.427Z",
+        "modified_at": "2019-03-28T07:01:45.427Z",
+        "name": "Mark As Completed",
+        "permission_category": "project",
+        "slug": "project_mark-as-completed"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 42,
+    "fields": {
+        "created_at": "2019-03-28T07:01:51.714Z",
+        "modified_at": "2019-03-28T07:01:51.714Z",
+        "name": "View Archived",
+        "permission_category": "project",
+        "slug": "project_view-archived"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 43,
+    "fields": {
+        "created_at": "2019-03-28T07:01:51.714Z",
+        "modified_at": "2019-03-28T07:01:51.714Z",
+        "name": "Send Ping",
+        "permission_category": "task",
+        "slug": "task_send-ping"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 44,
+    "fields": {
+        "created_at": "2019-03-28T07:01:51.714Z",
+        "modified_at": "2019-03-28T07:01:51.714Z",
+        "name": "View All Company",
+        "permission_category": "task",
+        "slug": "task_task-view-all"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 45,
+    "fields": {
+        "created_at": "2019-03-28T07:01:51.714Z",
+        "modified_at": "2019-03-28T07:01:51.714Z",
+        "name": "View All Company",
+        "permission_category": "workflow",
+        "slug": "workflow_workflow-view-all"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 46,
+    "fields": {
+        "created_at": "2019-03-28T07:01:51.714Z",
+        "modified_at": "2019-03-28T07:01:51.714Z",
+        "name": "View All Company",
+        "permission_category": "project",
+        "slug": "project_project-view-all"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 47,
+    "fields": {
+        "created_at": "2019-03-28T07:01:51.714Z",
+        "modified_at": "2019-03-28T07:01:51.714Z",
+        "name": "Upload Docs",
+        "permission_category": "workflow",
+        "slug": "workflow_upload-docs"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 48,
+    "fields": {
+        "created_at": "2019-03-28T07:01:51.714Z",
+        "modified_at": "2019-03-28T07:01:51.714Z",
+        "name": "Delete Docs",
+        "permission_category": "project",
+        "slug": "project_delete-doc"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 49,
+    "fields": {
+        "created_at": "2019-03-28T07:01:51.714Z",
+        "modified_at": "2019-03-28T07:01:51.714Z",
+        "name": "Delete Docs",
+        "permission_category": "workflow",
+        "slug": "workflow_delete-doc"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 50,
+    "fields": {
+        "created_at": "2019-03-28T07:01:51.714Z",
+        "modified_at": "2019-03-28T07:01:51.714Z",
+        "name": "Delete Docs",
+        "permission_category": "task",
+        "slug": "task_delete-doc"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 51,
+    "fields": {
+        "created_at": "2019-03-28T07:01:51.714Z",
+        "modified_at": "2019-03-28T07:01:51.714Z",
+        "name": "Create/Edit Privilege Selector",
+        "permission_category": "task",
+        "slug": "task_create-edit-privilege-selector"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 52,
+    "fields": {
+        "created_at": "2019-03-28T07:01:51.714Z",
+        "modified_at": "2019-03-28T07:01:51.714Z",
+        "name": "Create/Edit Privilege Selector",
+        "permission_category": "workflow",
+        "slug": "workflow_create-edit-privilege-selector"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 53,
+    "fields": {
+        "created_at": "2019-03-28T07:01:51.714Z",
+        "modified_at": "2019-03-28T07:01:51.714Z",
+        "name": "Create/Edit Privilege Selector",
+        "permission_category": "project",
+        "slug": "project_create-edit-privilege-selector"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 54,
+    "fields": {
+        "created_at": "2019-03-28T07:01:51.714Z",
+        "modified_at": "2019-03-28T07:01:51.714Z",
+        "name": "Task Edit Name",
+        "permission_category": "task",
+        "slug": "task_task-edit-name"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 55,
+    "fields": {
+        "created_at": "2019-03-28T07:01:51.714Z",
+        "modified_at": "2019-03-28T07:01:51.714Z",
+        "name": "Workflow Edit Name",
+        "permission_category": "workflow",
+        "slug": "workflow_workflow-edit-name"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 56,
+    "fields": {
+        "created_at": "2019-03-28T07:01:51.714Z",
+        "modified_at": "2019-03-28T07:01:51.714Z",
+        "name": "Project Edit Name",
+        "permission_category": "project",
+        "slug": "project_project-edit-name"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 57,
+    "fields": {
+        "created_at": "2019-03-28T07:01:51.714Z",
+        "modified_at": "2019-03-28T07:01:51.714Z",
+        "name": "Access to Request Page",
+        "permission_category": "request",
+        "slug": "request_request-view"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 58,
+    "fields": {
+        "created_at": "2021-07-08T07:01:51.714Z",
+        "modified_at": "2021-07-08T07:01:51.714Z",
+        "name": "TaskTemplate View",
+        "permission_category": "tasktemplate",
+        "slug": "tasktemplate_tasktemplate-view"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 59,
+    "fields": {
+        "created_at": "2021-07-08T07:01:51.714Z",
+        "modified_at": "2021-07-08T07:01:51.714Z",
+        "name": "TaskTemplate Create",
+        "permission_category": "tasktemplate",
+        "slug": "tasktemplate_tasktemplate-create"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 60,
+    "fields": {
+        "created_at": "2021-07-08T07:01:51.714Z",
+        "modified_at": "2021-07-08T07:01:51.714Z",
+        "name": "TaskTemplate Update",
+        "permission_category": "tasktemplate",
+        "slug": "tasktemplate_tasktemplate-update"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 61,
+    "fields": {
+        "created_at": "2021-07-08T07:01:51.714Z",
+        "modified_at": "2021-07-08T07:01:51.714Z",
+        "name": "TaskTemplate Destroy",
+        "permission_category": "tasktemplate",
+        "slug": "tasktemplate_tasktemplate-destroy"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 62,
+    "fields": {
+        "created_at": "2021-10-18T06:03:23.823Z",
+        "modified_at": "2021-10-18T06:03:23.823Z",
+        "name": "GlobalCustomField View",
+        "permission_category": "globalcustomfield",
+        "slug": "globalcustomfield_globalcustomfield-view"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 63,
+    "fields": {
+        "created_at": "2021-10-18T06:03:23.823Z",
+        "modified_at": "2021-10-18T06:03:23.823Z",
+        "name": "GlobalCustomField Create",
+        "permission_category": "globalcustomfield",
+        "slug": "globalcustomfield_globalcustomfield-create"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 64,
+    "fields": {
+        "created_at": "2021-10-18T06:03:23.823Z",
+        "modified_at": "2021-10-18T06:03:23.823Z",
+        "name": "GlobalCustomField Update",
+        "permission_category": "globalcustomfield",
+        "slug": "globalcustomfield_globalcustomfield-update"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 65,
+    "fields": {
+        "created_at": "2021-10-18T06:03:23.823Z",
+        "modified_at": "2021-10-18T06:03:23.823Z",
+        "name": "GlobalCustomField Destroy",
+        "permission_category": "globalcustomfield",
+        "slug": "globalcustomfield_globalcustomfield-destroy"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 66,
+    "fields": {
+        "created_at": "2021-11-07T17:18:30.176Z",
+        "modified_at": "2021-11-07T17:18:30.176Z",
+        "name": "WorkflowTemplate View",
+        "permission_category": "workflowtemplate",
+        "slug": "workflowtemplate_workflowtemplate-view"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 67,
+    "fields": {
+        "created_at": "2021-11-07T17:18:30.176Z",
+        "modified_at": "2021-11-07T17:18:30.176Z",
+        "name": "WorkflowTemplate Create",
+        "permission_category": "workflowtemplate",
+        "slug": "workflowtemplate_workflowtemplate-create"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 68,
+    "fields": {
+        "created_at": "2021-11-07T17:18:30.176Z",
+        "modified_at": "2021-11-07T17:18:30.176Z",
+        "name": "WorkflowTemplate Update",
+        "permission_category": "workflowtemplate",
+        "slug": "workflowtemplate_workflowtemplate-update"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 69,
+    "fields": {
+        "created_at": "2021-11-07T17:18:30.176Z",
+        "modified_at": "2021-11-07T17:18:30.176Z",
+        "name": "WorkflowTemplate Destroy",
+        "permission_category": "workflowtemplate",
+        "slug": "workflowtemplate_workflowtemplate-destroy"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 70,
+    "fields": {
+        "created_at": "2021-11-07T17:18:30.220Z",
+        "modified_at": "2021-11-07T17:18:30.220Z",
+        "name": "ProjectTemplate View",
+        "permission_category": "projecttemplate",
+        "slug": "projecttemplate_projecttemplate-view"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 71,
+    "fields": {
+        "created_at": "2021-11-07T17:18:30.220Z",
+        "modified_at": "2021-11-07T17:18:30.220Z",
+        "name": "ProjectTemplate Create",
+        "permission_category": "projecttemplate",
+        "slug": "projecttemplate_projecttemplate-create"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 72,
+    "fields": {
+        "created_at": "2021-11-07T17:18:30.220Z",
+        "modified_at": "2021-11-07T17:18:30.220Z",
+        "name": "ProjectTemplate Update",
+        "permission_category": "projecttemplate",
+        "slug": "projecttemplate_projecttemplate-update"
+    }
+},
+{
+    "model": "authentication.permission",
+    "pk": 73,
+    "fields": {
+        "created_at": "2021-11-07T17:18:30.220Z",
+        "modified_at": "2021-11-07T17:18:30.220Z",
+        "name": "ProjectTemplate Delete",
+        "permission_category": "projecttemplate",
+        "slug": "projecttemplate_projecttemplate-destroy"
+    }
+}
+]

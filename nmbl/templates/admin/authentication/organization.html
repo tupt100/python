@@ -1,0 +1,25 @@
+{% extends "admin/index.html" %}
+{% load i18n static%}
+
+{% if not is_popup %}
+    {% block breadcrumbs %}
+        <div class="breadcrumbs">
+            <a href="{% url 'admin:index' %}">{% trans 'Home' %}</a> &rsaquo; <a href="/admin/authentication/">{% trans 'Authentication' %}</a> &rsaquo; Organization & Permission</div>
+    {% endblock %}
+{% endif %}
+
+
+{% block content %}
+    <h1>Organization List</h1>
+    {% if organization_list %}
+        <ul>
+            {% for org in organization_list %}
+                <li>
+                    <a href="{{ org.get_absolute_url }}">{{ org.name }}</a> ({{org.owner_name}})
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>There are no organization.</p>
+    {% endif %}       
+{% endblock %}

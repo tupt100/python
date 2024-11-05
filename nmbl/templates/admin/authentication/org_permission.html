@@ -1,0 +1,49 @@
+{% extends "admin/index.html" %}
+{% load i18n static%}
+
+{% if not is_popup %}
+    {% block breadcrumbs %}
+        <div class="breadcrumbs">
+            <a href="{% url 'admin:index' %}">{% trans 'Home' %}</a> &rsaquo; <a href="/admin/authentication/">{% trans 'Authentication' %}</a> &rsaquo; Organization & Permission</div>
+    {% endblock %}
+{% endif %}
+
+{% block content %}
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            {% for gp in group %}
+            <th>{{gp}}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+    {% for per in permission %}
+        <tr>
+            <th>{{per}}</th>
+
+    {% for gp in group_permission %}
+            {% if gp.permission == per %}
+            <td> yes </td>
+            {% else %}
+            {% endif %}
+    {% endfor %}
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<br>
+<br>
+<br>
+<table>
+    <thead>
+            {% for gdrp in group_permission %}
+        <tr>
+            <td>{{gdrp.group.name}}</td>
+            <td>{{gdrp.permission.name}}</td>
+        </tr>
+            {% endfor %}
+    </thead>
+</table>
+{% endblock %}

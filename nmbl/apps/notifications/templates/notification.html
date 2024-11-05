@@ -1,0 +1,46 @@
+{% load staticfiles %}
+<html>
+  <head>
+    <title>Notifier</title>
+  </head>
+  <body>
+     <h1>Notifier</h1>
+    <p>Notifications</p>
+    <ul id="notifylist"></ul>
+    {{request.user }}
+   <script>
+        let new_ws_conn = function () {
+            var socket = new WebSocket('ws://' + window.location.host + '/notifications/');
+
+            console.log(socket);
+
+            socket.onopen = function open() {
+                console.log('WebSockets connection created.');
+            };
+            socket.onclose = function open() {
+                console.log('WebSockets connection closed.');
+                setTimeout(function () {
+                    new_ws_conn();
+                }, 5000);
+            };
+            socket.onerror = function open() {
+                console.log('WebSockets connection error.');
+            };
+            socket.onmessage = function open(message) {
+                // Decode the JSON
+                console.log("Got websocket message " + message.data);
+                var data = JSON.parse(message.data);
+                // Handle errors
+                if (data.error) {
+                    alert(data.error);
+                    return
+                }
+                console.log(data)
+            };
+        };
+        new_ws_conn();
+    </script>
+  </body>
+</html>
+
+    

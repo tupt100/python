@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+{% load i18n staticfiles widget_tweaks%}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    {% if user.is_authenticated %}
+        <h4><a href="{% url 'authentication:logout' %}">LogOut</a></h4>
+        Hi {{ user.username }}!
+    {% else %}
+        <p>You are not logged in</p>
+        <a href="{% url 'authentication:login' %}">login</a>
+    {% endif %}
+{% endblock %}

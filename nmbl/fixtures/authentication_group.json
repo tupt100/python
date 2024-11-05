@@ -1,0 +1,68 @@
+[
+  {
+    "model": "authentication.group",
+    "pk": 1,
+    "fields": {
+      "created_at": "2019-03-11 14:12:13.583963",
+      "modified_at": "2019-03-11 14:12:13.584032",
+      "name": "General Counsel",
+      "status": "active",
+      "is_public": true,
+      "is_company_admin": false,
+      "can_be_delete": false
+    }
+  },
+  {
+    "model": "authentication.group",
+    "pk": 2,
+    "fields": {
+      "created_at": "2019-03-11 14:12:51.154294",
+      "modified_at": "2019-03-11 14:12:51.154358",
+      "name": "Legal Team",
+      "status": "active",
+      "is_public": true,
+      "is_company_admin": false,
+      "can_be_delete": true
+
+    }
+  },
+  {
+    "model": "authentication.group",
+    "pk": 3,
+    "fields": {
+      "created_at": "2019-03-11 14:12:35.387714",
+      "modified_at": "2019-03-11 14:12:35.387804",
+      "name": "Legal Dept Assistant",
+      "status": "active",
+      "is_public": true,
+      "is_company_admin": false,
+      "can_be_delete": true
+    }
+  },
+  {
+    "model": "authentication.group",
+    "pk": 4,
+    "fields": {
+      "created_at": "2019-03-11 14:12:35.387714",
+      "modified_at": "2019-03-11 14:12:35.387804",
+      "name": "Business Manager",
+      "status": "active",
+      "is_public": true,
+      "is_company_admin": false,
+      "can_be_delete": true
+    }
+  },
+  {
+    "model": "authentication.group",
+    "pk": 5,
+    "fields": {
+      "created_at": "2019-03-11 14:12:35.387714",
+      "modified_at": "2019-03-11 14:12:35.387804",
+      "name": "Admin",
+      "status": "active",
+      "is_public": true,
+      "is_company_admin": true,
+      "can_be_delete": false
+    }
+  }
+]

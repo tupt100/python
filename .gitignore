@@ -1,0 +1,9 @@
+*.pyc
+.DS_Store
+/media/
+.db
+__pycache__/
+.idea/
+env/
+celerybeat-schedule
+celerybeat.pid

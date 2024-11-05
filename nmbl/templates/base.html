@@ -1,0 +1,53 @@
+{% load i18n staticfiles %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="{% static 'img/favicon.png' %}">
+
+        <title>{% trans 'LOGIN' %}</title>
+
+        <meta name="author" content="" />
+        <meta name="description" content="" />
+        <link rel='canonical' href=''/>
+
+        {% block stylesheet %}
+            <!-- Google font -->
+            <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+            <!-- Bootstrap -->
+            <link type="text/css" rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"/>
+
+            <link type="text/css" rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}"/>
+
+            <link type="text/css" rel="stylesheet" href="{% static 'css/custom.css' %}"/>
+
+        {% endblock %}
+
+    </head>
+
+    <body class="top-navigation">
+        <div id="wrapper">
+            <div id="page-wrapper" class="gray-bg">
+                {% block header %}{% endblock %}
+                {% block content %}{% endblock %}
+                {% block footer %}{% endblock %}
+            </div>
+        </div>
+    </body>
+    
+    {% block script %}
+        <!-- jQuery Plugins -->
+        <script src="{% static 'js/jquery.min.js' %}"></script>
+        <script src="{% static 'js/jquery-3.2.1.slim.min.js' %}"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+        <script src="{% static 'js/popper.min.js' %}"></script>
+
+        <!-- custom js-->
+
+        {% block js%} {% endblock %}
+    {% endblock %}
+</html>

@@ -1,0 +1,43 @@
+.login-form {
+    background-color: #fff;
+    width: 410px;
+    margin: 0 auto 30px;
+    padding: 40px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+}
+.theme-form label {
+    font-weight: 500;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.btn.btn-default {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+    width: 100%;
+    background: #19191d;
+    color: #fff;
+    font-size: 18px;
+}
+.btn:hover {
+    box-shadow: none;
+    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.08);
+}
+.margintop{
+    padding: 50px 0px;
+}
+.signin{
+    margin-top: 20px;
+}
+.link_black{
+    color: #19191d;
+}
