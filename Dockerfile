@@ -20,5 +20,6 @@ COPY . .
 RUN python3 manage.py collectstatic --no-input
 
 #CMD ["python3", "manage.py", "runserver"]
-CMD ["bash", "-c", "pgunicorn --workers 3 --preload --timeout 120 --keep-alive 30 --log-level debug --bind 0.0.0.0:8000 config.wsgi"]
+#CMD ["bash", "-c", "pgunicorn --workers 3 --preload --timeout 120 --keep-alive 30 --log-level debug --bind 0.0.0.0:8000 config.wsgi"]
+CMD ["gunicorn", "--log-level debug", "--bind 0.0.0.0:8000", "nmbl.wsgi"]
 
