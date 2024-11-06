@@ -28,8 +28,8 @@ jobs:
 
     - name: Tag Docker image
       run: |
-        docker tag python:latest ${{ secrets.ECR_REPOSITORY }}/$MCR_NAME:latest
+        docker tag python:latest ${{ secrets.ECR_REPOSITORY }}/${{MCR_NAME}}:latest
 
     - name: Push Docker image to Amazon ECR
       run: |
-        docker push ${{ secrets.ECR_REPOSITORY }}/$MCR_NAME:latest
+        docker push ${{ secrets.ECR_REPOSITORY }}/${{MCR_NAME}}:latest
